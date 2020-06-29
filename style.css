@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
+}
+.box{
+    background-color: skyblue;
+    width: 19%;
+    height: 390px;
+    margin: 4px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+img{
+    width: 240px;
+    height: 230px;
+   margin: 10px 10px;
+}
+.title{
+    font-weight: bolder;
+    color: palevioletred;
+    font-family: cursive;
+    font-size: 20px;;
+    text-align: center;
+}
+.description{
+   font-size: 16px;
+   text-align: justify;
+   margin: 0px 10px;
+   line-height: 14px;
+   color: slategrey;
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+p del{
+    color: red;
+    font-size: 17px;
+}
+span{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+button{
+    height: 25px;
+    width: 85px;
+    margin: 0px 12px;
+    background-color: rgba(255, 60, 0, 0.788);
+    outline: none;
+    color: whitesmoke;
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    background-color: mediumvioletred;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bolder;
+    color: paleturquoise;
+}
